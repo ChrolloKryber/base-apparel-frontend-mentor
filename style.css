@@ -1,0 +1,116 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --desaturatedRed: hsl(0, 36%, 70%);
+    --softRed: hsl(0, 93%, 68%);
+    --darkGrayishRed: hsl(0, 6%, 24%);
+}
+
+body {
+    font-family: 'Josefin Sans';
+}
+
+img {
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#image {
+    height: 40%;
+    min-height: 250px;
+    background: url('./images/hero-mobile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#text {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#text h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.hero-p {
+    padding: 20px 0 20px;
+    color: var(--desaturatedRed);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.we-are {
+    color: var(--desaturatedRed);
+    font-weight: 300;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    border: 1px solid var(--desaturatedRed);
+}
+
+.form input {
+    width: 100%;
+}
+
+.form button {
+    width: 30%;
+}
+
+:is(.form) input,
+button {
+    border: 0;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+
+button {
+    background: linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+}
+
+.error-state {
+    border: 1px solid var(--softRed);
+}
+
+.error-message {
+    color: var(--softRed);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.error-image {
+    padding-right: 10px;
+}
+
+button:hover {
+    opacity: 0.7;
+    box-shadow: 20px 20px 20px black;
+}
