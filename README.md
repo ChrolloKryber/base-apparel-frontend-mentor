@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![dd20f44de627fdb0cc057bcbad07764c.png](../_resources/dd20f44de627fdb0cc057bcbad07764c.png)
-![76789eafa7b0b42c160f80edbc8fb1da.png](../_resources/76789eafa7b0b42c160f80edbc8fb1da.png)
+![dd20f44de627fdb0cc057bcbad07764c.png](./_resources/dd20f44de627fdb0cc057bcbad07764c.png)
+![76789eafa7b0b42c160f80edbc8fb1da.png](./_resources/76789eafa7b0b42c160f80edbc8fb1da.png)
 
 ### Links
 
