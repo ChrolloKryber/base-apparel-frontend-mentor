@@ -1,4 +1,5 @@
 $('.error-message').hide();
+
 $(document).ready(function () {
     let inputText;
     function buttonClick() {
@@ -26,4 +27,15 @@ $(document).ready(function () {
         buttonClick();
         ValidateEmail(inputText);
     });
+
+    if (screen.width < 768) {
+        $('.desktop-footer').hide();
+        $('.mobile-footer').show();
+    }
+    else {
+        $('.desktop-footer').show();
+        $('.mobile-footer').hide();
+
+    }
+
 });
